@@ -13,6 +13,8 @@
 		3E19AB6624363CED00E433A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19AB6424363CED00E433A0 /* Main.storyboard */; };
 		3E19AB6824363CEF00E433A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E19AB6724363CEF00E433A0 /* Assets.xcassets */; };
 		3E19AB6B24363CEF00E433A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19AB6924363CEF00E433A0 /* LaunchScreen.storyboard */; };
+		3E19AB7324363D0F00E433A0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19AB7224363D0F00E433A0 /* ResultViewController.swift */; };
+		3E19AB7924363FCC00E433A0 /* ファンファーレ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E19AB7824363FCC00E433A0 /* ファンファーレ.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3E19AB6724363CEF00E433A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E19AB6A24363CEF00E433A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E19AB6C24363CEF00E433A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E19AB7224363D0F00E433A0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3E19AB7824363FCC00E433A0 /* ファンファーレ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ファンファーレ.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		3E19AB5D24363CED00E433A0 /* CheckWork3 */ = {
 			isa = PBXGroup;
 			children = (
+				3E19AB7824363FCC00E433A0 /* ファンファーレ.mp3 */,
 				3E19AB5E24363CED00E433A0 /* AppDelegate.swift */,
 				3E19AB6024363CED00E433A0 /* SceneDelegate.swift */,
 				3E19AB6224363CED00E433A0 /* ViewController.swift */,
+				3E19AB7224363D0F00E433A0 /* ResultViewController.swift */,
 				3E19AB6424363CED00E433A0 /* Main.storyboard */,
 				3E19AB6724363CEF00E433A0 /* Assets.xcassets */,
 				3E19AB6924363CEF00E433A0 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				3E19AB6B24363CEF00E433A0 /* LaunchScreen.storyboard in Resources */,
 				3E19AB6824363CEF00E433A0 /* Assets.xcassets in Resources */,
 				3E19AB6624363CED00E433A0 /* Main.storyboard in Resources */,
+				3E19AB7924363FCC00E433A0 /* ファンファーレ.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				3E19AB6324363CED00E433A0 /* ViewController.swift in Sources */,
 				3E19AB5F24363CED00E433A0 /* AppDelegate.swift in Sources */,
 				3E19AB6124363CED00E433A0 /* SceneDelegate.swift in Sources */,
+				3E19AB7324363D0F00E433A0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
